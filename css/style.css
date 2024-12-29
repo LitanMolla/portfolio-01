@@ -1,0 +1,593 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    outline: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    font-size: 21px;
+    line-height: normal;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 3%;
+    background: #FD6F00;
+    border: 1px solid #FD6F00;
+    border-radius: 5px;
+    transition: .5s;
+    padding: 15px 18px;
+}
+
+button:hover{
+    background: #fff;
+    color: #FD6F00;
+}
+
+.nav-link{
+    font-size: 21px;
+    line-height: normal;
+    color: #000;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: #FD6F00;
+}
+/* All Common CSS End */
+
+/* Banner Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#bannerPart{
+    margin-top: 200px;
+}
+
+.bannerText h6{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.bannerText h5{
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 600;
+    letter-spacing: 3%;
+    color: #FD6F00;
+}
+
+.bannerText h1{
+    font-size: 100px;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.h1end{
+    text-align: right;
+}
+
+.bannerText p{
+    font-size: 21px;
+    line-height: normal;
+    margin-bottom: 22px;
+    margin-top: 28px;
+}
+
+.bannerText button{
+    padding: 15px 52px;
+}
+
+.bannerSocial{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    gap: 25px;
+}
+
+.bannerSocial a i{
+    font-size: 32px;
+    color: #000;
+    transition: .5s;
+}
+
+.bannerSocial a i:hover{
+    color: #FD6F00;
+}
+/* Banner Part End */
+
+
+/* About Part Start */
+#aboutPart{
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.aboutText h1{
+    font-size: 65px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.aboutText p{
+    font-size: 21px;
+    line-height: normal;
+}
+
+.progressPart{
+    margin-top: 20px;
+}
+/* ================= */
+
+.skill-wrapper span{
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+}
+
+/* ================= */
+/* About Part End */
+
+
+/* Service Part Start */
+#servicePart{
+    margin-bottom: 140px;
+}
+
+.serviceHeader h1{
+    font-size: 65px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.serviceHeader p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.serviceHeader{
+    margin-bottom: 60px;
+}
+
+.serviceItem{
+    background: #F8F8F8;
+    padding: 50px 18px;
+    border-radius: 14px;
+   transition: .5s;
+}
+
+.serviceItem:hover{ 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.serviceItem h1{
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.serviceItem p{
+    font-size: 19px;
+    line-height: normal;
+}
+/* Service Part End */
+
+
+/* Project Part Start */
+#projectPart{
+    margin-bottom: 140px;
+}
+
+.projectHeader h1{
+    font-size: 65px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.projectHeader p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.projectHeader{
+    margin-bottom: 60px;
+}
+
+.projectType ul li{
+    display: inline-block;
+}
+
+.projectType ul{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.projectType ul li a{
+    font-size: 24px;
+    line-height: normal;
+    color: #000;
+    background: #F8F8F8;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: .5s;
+}
+
+.projectType ul li a:hover{
+    background: #FD6F00;
+    color: #fff;
+}
+
+.projectType{
+    margin-bottom: 105px;
+}
+
+.projectItem h4{
+    color: #FD6F00;
+    font-size: 19px;
+    line-height: normal;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+    
+.projectItem h2{
+    font-size: 24px;
+    line-height: normal;
+    color: #000;
+    font-weight: bold;
+}
+/* Project Part End */
+
+
+/* Testimonials Part Start */
+#testimonialsPart{
+    margin-bottom: 140px;
+}
+
+.testimonialsHeader h1{
+    font-size: 65px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.testimonialsHeader p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.testimonialsHeader{
+    margin-bottom: 80px;
+}
+
+.client_Review p{
+
+}
+.clentPhoto{
+    height: 235px;
+    width: 235px;
+}
+
+.testimonialsItem {
+    background: #F8F8F8;
+    border-radius: 14px;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+}
+
+.testimonialsItem3{
+    background: #FCFFC1;
+}
+
+.testimonialsItem4{
+    background: #CDC1FF;
+}
+.testimonialsItem2{
+    background: #A0DEFF;
+}
+
+.client_Review h4{
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.client_Review p{
+    font-size: 21px;
+    line-height: normal;
+    font-weight: normal;
+}
+
+.client_Review h6{
+    font-size: 19px;
+    line-height: normal;
+    font-weight: normal;
+}
+.clentPhoto img{
+    border-radius: 50%;
+}
+
+
+.client_Review{
+    flex: 1;
+}
+
+.prev{
+    font-size: 30px;
+    color: gray;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    left: 20px;
+}
+.next{
+    font-size: 30px;
+    color: gray;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    right: 20px;
+}
+/* Testimonials Part End */
+
+
+/* Dots Part Start */
+.slick-dots li button {
+    font-size: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%; 
+    background-color: #ccc; 
+    border: none;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #FD6F00; 
+}
+
+.slick-dots li{
+    display: inline-block;
+    gap: 10px;
+    margin: 0 10px;
+}
+
+.slick-dots {
+    margin-top: 15px; 
+    text-align: center;
+}
+
+/* Dots Part End */
+
+
+/* Support Part Start */
+#supportPart{
+    margin-bottom: 140px;
+}
+
+.supportHeader h1{
+    font-size: 65px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.supportHeader p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.supportHeader{
+    margin-bottom: 50px;
+}
+
+form {
+    margin: 0 auto; 
+}
+
+.supportBox{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.supportBox input{
+    background: none;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #797979;
+    padding: 22px 0 22px 26px;
+    border-radius: 14px;
+    flex: 1;
+}
+
+.supportBox button{
+    font-size: 21px;
+    padding: 22px 26px;
+    border-radius: 14px;
+    flex-shrink: 0;
+}
+/* Support Part End */
+
+
+/* Footer Part Start */
+#footerPart{
+    background: #F8F8F8;
+    padding-top: 110px;
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 65px 0;
+}
+
+.footerMenu ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footerMenu ul li a{
+    font-size: 21px;
+    font-weight: 400;
+    color: #000;
+    transition: .5s;
+}
+
+.footerMenu ul li a:hover{
+    color: #FD6F00;
+}
+
+.footerSocial{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.footerSocial a i{
+    font-size: 32px;
+    color: #000;
+    transition: .5s;
+}
+
+.footerSocial a i:hover{
+    color: #FD6F00;
+}
+
+.footerText{
+    background: #545454;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footerText p{
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.footerText a{
+    color: #FD6F00;
+}
+/* Footer Part End */
+
+
+/* Name Part Start */
+.sticky_name{
+    background: #ccc;
+    animation: alamin 1s;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
